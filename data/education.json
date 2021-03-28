@@ -1,14 +1,14 @@
 [
     {
-        "school":"University of Tsukuba, Depeartment of Computer Science, Graduate School of Systems and Information engineering (筑波大学大学院システム情報工学研究科コンピュータサイエンス専攻博士前期課程)",
-        "degree":"Master of Engineering",
+        "school": "University of Tsukuba, Depeartment of Computer Science, Graduate School of Systems and Information engineering (筑波大学大学院システム情報工学研究科コンピュータサイエンス専攻博士前期課程)",
+        "degree": "Master of Engineering",
         "major": "Computer Sciense",
-        "range":"April 2018 - March 2020"
+        "range": "April 2018 - March 2020"
     },
     {
-        "school":"University of Iwate, Faculty of Agriculture (岩手大学農学部農林環境科学科)",
-        "degree":"B.S. in Agriculture",
-        "major":"Environmental control engineering",
-        "range":"April 2006 - March 2009"
+        "school": "University of Iwate, Faculty of Agriculture (岩手大学農学部農林環境科学科)",
+        "degree": "B.S. in Agriculture",
+        "major": "Environmental control engineering",
+        "range": "April 2006 - March 2009"
     }
 ]

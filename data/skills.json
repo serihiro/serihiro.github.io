@@ -1,34 +1,77 @@
 [
   {
-      "grouping":"Architecture",
-      "skills":["RESTful APIs", "Microservices"]
+    "grouping": "Architecture",
+    "skills": [
+      "RESTful APIs",
+      "Microservices"
+    ]
   },
   {
-      "grouping":"Languages, Operating Systems & Tools",
-      "skills":[ "Ruby", "Java", "Python", "JavaScript", "C++", "C", "Rust", "Terraform", "Linux", "MacOS", "git"]
+    "grouping": "Languages, Operating Systems & Tools",
+    "skills": [
+      "Ruby",
+      "Java",
+      "Python",
+      "JavaScript",
+      "C++",
+      "C",
+      "Rust",
+      "Terraform",
+      "Linux",
+      "MacOS",
+      "git"
+    ]
   },
   {
-    "grouping":"Machine Learning",
-    "skills":["Scikit-learn", "Chainer", "Pytorch", "Jupyter notebook", "Computer Vision"]
+    "grouping": "Machine Learning",
+    "skills": [
+      "Scikit-learn",
+      "Chainer",
+      "Pytorch",
+      "Jupyter notebook",
+      "Computer Vision"
+    ]
   },
   {
-      "grouping":"Platform Development & Administration",
-      "skills":["CircleCI", "MySQL", "PostgreSQL", "nginx", "fluentd"]
+    "grouping": "Platform Development & Administration",
+    "skills": [
+      "CircleCI",
+      "MySQL",
+      "PostgreSQL",
+      "nginx",
+      "fluentd"
+    ]
   },
   {
-      "grouping":"Data Management",
-      "skills":[
-        {"name":"MySQL","icon":"database"},
-        {"name":"PostgreSQL","icon":"database"},
-        {"name":"BigQuery","icon":"database"},
-        {"name":"Redash","icon":"bi"}
-      ]
+    "grouping": "Data Management",
+    "skills": [
+      {
+        "name": "MySQL",
+        "icon": "database"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "database"
+      },
+      {
+        "name": "BigQuery",
+        "icon": "database"
+      },
+      {
+        "name": "Redash",
+        "icon": "bi"
+      }
+    ]
   },
   {
-    "grouping":"Containers & Cloud",
-      "skills":[
-          {"name":"Docker"},
-          {"name":"AWS"}
-      ]
+    "grouping": "Containers & Cloud",
+    "skills": [
+      {
+        "name": "Docker"
+      },
+      {
+        "name": "AWS"
+      }
+    ]
   }
 ]
