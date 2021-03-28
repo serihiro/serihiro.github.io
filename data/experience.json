@@ -1,0 +1,44 @@
+[
+    {
+        "role":"Senior Software Engineer",
+        "company":"Treasure Data, Inc. (トレジャーデータ株式会社)",
+        "summary":"Developing an internal RESTful Web API system (Kotolin + Dropwizard), Worker system (Ruby), ,Workflow Engine (Java8), and so on.",
+        "range":"February 2020 - Present"
+    },
+    {
+        "role":"Software Engineer (Intern)",
+        "company":"Treasure Data, Inc. (トレジャーデータ株式会社)",
+        "summary":"Development new functions for OSS workflowengine Digdag",
+        "range":"August 2018 - September 2018"
+    },
+    {
+        "role":"Software Engineer",
+        "company":"Toreta, Inc. (株式会社トレタ)",
+        "summary":"Design, implementation, and operation of RESTful Web API for the company's restaurant reservation service (Ruby on Rails 4.x) and internal ETL system",
+        "range":"January 2016 - March 2018"
+    },
+    {
+        "role":"Software Engineer",
+        "company":"HeartRails, Inc. (株式会社ハートレイルズ)",
+        "summary":"Design, implementation, and operation of Web Application and RESTFull API for the customer's web services with Ruby on Rails (4.x)",
+        "range":"July 2014 - December 2015"
+    },
+    {
+        "role":"Software Engineer",
+        "company":"BizReach, Inc. (株式会社ビズリーチ)",
+        "summary":"Design, implementation, and operation of Web Application for the company's job hunting service (Java 1.6)",
+        "range":"December 2012 - June 2014"
+    },
+    {
+        "role":"Software Engineer",
+        "company":"Public Identity Co.,Ltd. (株式会社パブリックアイデンティティ)",
+        "summary":"Design, implementation, and operation of Web Application for the cocustomer's web services (PHP 5.1)",
+        "range":"November 2011 - December 2012"
+    },
+    {
+        "role":"System Engineer",
+        "company":"NEC Nexsolutions, Ltd. (NECネクサソリューションズ株式会社)",
+        "summary":"System operation for customers and project management support",
+        "range":"April 2009 - December 2011"
+    }
+]

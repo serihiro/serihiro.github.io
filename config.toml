@@ -1,3 +1,51 @@
-baseURL = "http://example.org/"
+title = "Serizawa's profile page"
+baseURL = "https://serihiro.github.io/"
+theme = "hugo-resume"
 languageCode = "en-us"
-title = "My New Hugo Site"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+publishDir = "docs"
+
+[params]
+firstName = "Kazuhiro"
+lastName = "Serizawa"
+profileImage = "img/icon.jpg"
+showEducation = true
+showExperience = true
+showOpenSource = true
+showProjects = true
+showPublications = true
+showQr = false
+showSkills = true
+
+[params.google]
+
+[params.google.analytics]
+
+[[params.handles]]
+link = "https://www.linkedin.com/in/kazuhiro-serizawa/"
+name = "LinkedIn"
+
+[[params.handles]]
+link = "https://github.com/serihiro/"
+name = "GitHub"
+
+[[params.handles]]
+link = "https://twitter.com/seri_k"
+name = "Twitter"
+
+[[params.handles]]
+link = "https://speakerdeck.com/serihiro"
+name = "SpeakerDeck"
+
+[[params.handles]]
+link = "https://serihiro.hatenablog.com/"
+name = "Blog (In Japanese)"
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"

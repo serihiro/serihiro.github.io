@@ -1,0 +1,34 @@
+[
+  {
+      "grouping":"Architecture",
+      "skills":["RESTful APIs", "Microservices"]
+  },
+  {
+      "grouping":"Languages, Operating Systems & Tools",
+      "skills":[ "Ruby", "Java", "Python", "JavaScript", "C++", "C", "Rust", "Terraform", "Linux", "MacOS", "git"]
+  },
+  {
+    "grouping":"Machine Learning",
+    "skills":["Scikit-learn", "Chainer", "Pytorch", "Jupyter notebook", "Statistics (basis)", "Renear regression", "Logistic regression", "K-Means", "CNN"]
+  },
+  {
+      "grouping":"Platform Development & Administration",
+      "skills":["CircleCI", "MySQL", "PostgreSQL", "nginx", "fluentd"]
+  },
+  {
+      "grouping":"Data Management",
+      "skills":[
+        {"name":"MySQL","icon":"database"},
+        {"name":"PostgreSQL","icon":"database"},
+        {"name":"BigQuery","icon":"database"},
+        {"name":"Redash","icon":"bi"}
+      ]
+  },
+  {
+    "grouping":"Containers & Cloud",
+      "skills":[
+          {"name":"Docker","link":"https://docker.com"},
+          {"name":"AWS","link":"https://aws.amazon.com"}
+      ]
+  }
+]
