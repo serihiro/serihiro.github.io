@@ -1,13 +1,13 @@
 ---
 title: "Accelerating Machine Learning I/O by Overlapping Data Staging and Mini-batch Generations"
 date: 2019-12-04
-pubtype: "Academic conference"
+pubtype: "International conference"
 featured: true
 description: "The academic paper that I submitted to \"the 6th IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (BDCAT'19)\""
-tags: ["proceedings"]
+tags: ["Proceedings", "International Conference"]
 link: "https://doi.org/10.1145/3365109.3368768"
 sitemap:
-  priority : 0.8
+  priority : 1.0
 ---
 
 [The slide of this talk](https://speakerdeck.com/serihiro/o-by-overlapping-data-staging-and-mini-batch-generations)
