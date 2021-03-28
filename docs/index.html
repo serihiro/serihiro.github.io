@@ -448,8 +448,116 @@
    
    
       
+         
+         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+  <div class="my-auto" id="projects-content">
+    <div class=" pb-2 pt-3">
+      <h2><a href="https://serihiro.github.io/projects/creations/">Projects</a></h2>
+      <h3 id="chainer_prefetch_multiprocess_iteratorhttpsgithubcomserihirochainer_prefetch_multiprocess_iterator-python"><a href="https://github.com/serihiro/chainer_prefetch_multiprocess_iterator">chainer_prefetch_multiprocess_iterator</a> (Python)</h3>
+<ul>
+<li>This is the reference implementation of my study <a href="https://doi.org/10.1145/3365109.3368768">&ldquo;Accelerating Machine Learning I/O by Overlapping Data Staging and Mini-batch Generations&rdquo;</a>.</li>
+<li>This is a Chainer Iterator class that executes prefetching training data from slow storages (such like parallel file systems) into fast storage (such as SSD) and generating mini-batches in the same time.</li>
+<li>The aim of this study is to conceal the time for staging-in training dataset into node-local storages in computation nodes at HPC clusters (such as ABCI, TSUBAME, Cygnus, and so on).</li>
+</ul>
+<h3 id="chainer_minibatch_size_optimizerhttpsgithubcomserihirochainer_minibatch_size_optimizer-python"><a href="https://github.com/serihiro/chainer_minibatch_size_optimizer">chainer_minibatch_size_optimizer</a> (Python)</h3>
+<ul>
+<li>This is the reference implementation of my paper, <a href="http://id.nii.ac.jp/1001/00194707/">深層ニューラルネットワークにおける訓練高速化のための自動最適化</a>.</li>
+<li>This is a Chainer Trainer extension class that optimizes mini-batch size adaptically for training a model with one GPU.</li>
+</ul>
+<h3 id="inference_enginehttpsgithubcomserihiroinference_engine-c"><a href="https://github.com/serihiro/inference_engine">inference_engine</a> (C++)</h3>
+<ul>
+<li>This is an ONNX runtime implementation, such like <a href="https://github.com/microsoft/onnxruntime">onnxruntime</a> or <a href="https://github.com/pfnet-research/menoh">menoh</a>.</li>
+<li>For now, Gemm, Conv, MaxPool, Relu, Softmax, Dropout, Reshape are supported.</li>
+<li>All backend implementation is my own implementation for CPU (This means that current backend implementation does not use optimized matrix libraries, such like Blas, Intel MKL-DDN, and so on.).</li>
+</ul>
+<h3 id="simple_map_reducehttpsgithubcomserihirosimple_map_reduce---distributed-mapreduce-framework-ruby"><a href="https://github.com/serihiro/simple_map_reduce">simple_map_reduce</a> - Distributed MapReduce framework (Ruby)</h3>
+<ul>
+<li>This is an experimental project to study MapReduce.</li>
+<li><a href="https://serihiro.hatenablog.com/entry/2018/02/12/191157">The blog post to illustrate this product (Japanese)</a>.</li>
+</ul>
+<h3 id="optimization_experimentshttpsgithubcomserihirooptimization_experiments-c"><a href="https://github.com/serihiro/optimization_experiments">optimization_experiments</a> (C)</h3>
+<ul>
+<li>This is an experimental project to study optimization for GEMM and GEMV.</li>
+<li>This projects includes dgemm and dgemv implementations which are optimized by <code>loop exchange</code>, <code>loop unloop</code>, <code>blcoknize</code>, <code>padding</code> repeatedly.</li>
+</ul>
+<h3 id="convolution_experimentshttpsgithubcomserihiroconvolution_experiments-python"><a href="https://github.com/serihiro/convolution_experiments">convolution_experiments</a> (Python)</h3>
+<ul>
+<li>This is an experimental project to study implementation for Convolution with <code>direct</code> and <code>im2col</code> style repeatedly.</li>
+</ul>
+<h3 id="config2argshttpsgithubcomserihiroconfig2args-rust"><a href="https://github.com/serihiro/config2args">config2args</a> (Rust)</h3>
+<ul>
+<li>This is a CLI tool to convert json config file into GNU CLI option style (such like <code>--key1 value1 --key2 value2</code>)</li>
+</ul>
+      
+    </div>
+  
+    
+    
+  </div>
+  
+</section>
+
+      
    
    
+      
+         
+         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="open">
+  <div class="my-auto" id="projects-content">
+    <div class=" pb-2 pt-3">
+      <h2><a href="https://serihiro.github.io/projects/contributions/">Open Source Contributions</a></h2>
+      <ul>
+<li>
+<p class="lead"><a href="https://github.com/online-judge-tools/oj">online-judge-tools/oj</a> (Python)</p>
+<ul>
+<li><a href="https://github.com/online-judge-tools/oj/pull/739">Skip language option tags without <code>value</code> at AtCoder</a></li>
+</ul>
+</li>
+<li>
+<p class="lead"><a href="https://github.com/treasure-data/digdag">treasure-data/digdag</a> (Java)</p>
+<ul>
+<li><a href="https://github.com/treasure-data/digdag/pull/708">#708 Add dependencies for copied tasks for grouping task retry</a></li>
+<li><a href="https://github.com/treasure-data/digdag/pull/845">#845 Implement persistent params operator</a></li>
+<li><a href="https://github.com/treasure-data/digdag/pull/850">#850 [Experimental] Show logs by task</a></li>
+<li><a href="https://github.com/treasure-data/digdag/pull/883">#883 Implement td_result_export&gt; operator</a></li>
+<li><a href="https://github.com/treasure-data/digdag/pull/880">#880 Make page_size configurable</a></li>
+</ul>
+</li>
+<li>
+<p class="lead"><a href="https://github.com/google/google-auth-library-ruby">google/google-auth-library-ruby</a> (Ruby)</p>
+<ul>
+<li><a href="https://github.com/google/google-auth-library-ruby/pull/97">#97 Retry http request when unexpected error occurs</a></li>
+<li><a href="https://github.com/google/google-auth-library-ruby/pull/98">#98 Fix rubocop warning</a></li>
+</ul>
+</li>
+<li>
+<p class="lead"><a href="https://github.com/openid/ruby-openid">openid/ruby-openid</a> (Ruby)</p>
+<ul>
+<li><a href="https://github.com/openid/ruby-openid/pull/103">#103 Update admin/mkassoc to enable to work</a></li>
+</ul>
+</li>
+<li>
+<p class="lead"><a href="https://github.com/phstc/shoryuken">phstc/shoryuken</a> (Ruby)</p>
+<ul>
+<li><a href="https://github.com/phstc/shoryuken/pull/177">#177 Allow symbol as a queue name in shoryuken_options</a></li>
+</ul>
+</li>
+<li>
+<p class="lead"><a href="https://github.com/blue-oil/blueoil">blue-oil/blueoil</a> (C++)</p>
+<ul>
+<li><a href="https://github.com/blue-oil/blueoil/pull/427">#427 [refactor] remove a redundant semicolon from dlk <code>src/func/conv2d.cpp</code></a></li>
+</ul>
+</li>
+</ul>
+      
+    </div>
+  
+    
+    
+  </div>
+  
+</section>
+
       
    
    
@@ -469,17 +577,61 @@
       
 <div class="resume-item d-flex flex-column flex-md-row mb-5">
   <div class="publication-content mr-auto">
-    <h3 class="mb-0">Academic conference - <a href="https://serihiro.github.io/publications/bdcat/">Accelerating Machine Learning I/O by Overlapping Data Staging and Mini-batch Generations</a></h3>
+    <h3 class="mb-0">International conference - <a href="https://serihiro.github.io/publications/bdcat/">Accelerating Machine Learning I/O by Overlapping Data Staging and Mini-batch Generations</a></h3>
     <div>The academic paper that I submitted to "the 6th IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (BDCAT'19)"</div>
     <p><ul class="tags">
     
-      <li><a class="tag" href="/tags/proceedings">proceedings</a></li>
+      <li><a class="tag" href="/tags/proceedings">Proceedings</a></li>
+    
+      <li><a class="tag" href="/tags/international-conference">International Conference</a></li>
     
 </ul>
 </p>
   </div>
   <div class="resume-date text-md-right">
     <span class="text-primary">December 2019</span>
+    <img src="" style="max-width:250px;padding:5px;"/>
+  </div>
+</div>
+
+    
+      
+<div class="resume-item d-flex flex-column flex-md-row mb-5">
+  <div class="publication-content mr-auto">
+    <h3 class="mb-0">Domestic conference - <a href="https://serihiro.github.io/publications/hpc170/">大規模機械学習訓練におけるI/O性能の高速化</a></h3>
+    <div>The academic paper that I submitted to "情報処理学会 第170回 HPC 研究会報告 (HPC170)"</div>
+    <p><ul class="tags">
+    
+      <li><a class="tag" href="/tags/proceedings">Proceedings</a></li>
+    
+      <li><a class="tag" href="/tags/domestic-conference">Domestic Conference</a></li>
+    
+</ul>
+</p>
+  </div>
+  <div class="resume-date text-md-right">
+    <span class="text-primary">July 2019</span>
+    <img src="" style="max-width:250px;padding:5px;"/>
+  </div>
+</div>
+
+    
+      
+<div class="resume-item d-flex flex-column flex-md-row mb-5">
+  <div class="publication-content mr-auto">
+    <h3 class="mb-0">Docmestic conference - <a href="https://serihiro.github.io/publications/hpc168/">深層ニューラルネットワークにおける訓練高速化のための自動最適化</a></h3>
+    <div>The academic paper that I submitted to "情報処理学会 第168回 HPC 研究会報告 (HPC168)"</div>
+    <p><ul class="tags">
+    
+      <li><a class="tag" href="/tags/proceedings">proceedings</a></li>
+    
+      <li><a class="tag" href="/tags/domestic-conference">Domestic Conference</a></li>
+    
+</ul>
+</p>
+  </div>
+  <div class="resume-date text-md-right">
+    <span class="text-primary">March 2019</span>
     <img src="" style="max-width:250px;padding:5px;"/>
   </div>
 </div>
@@ -500,7 +652,7 @@
           <div class="resume-content mr-auto">
             <h3 class="mb-0">Senior Software Engineer</h3>
             <div class="subheading mb-3">Treasure Data, Inc. (トレジャーデータ株式会社)</div>
-            <p>Developing an internal RESTful Web API system (Kotolin + Dropwizard), Worker system (Ruby), ,Workflow Engine (Java8), and so on.</p>
+            <p>Developing of internal RESTful Web API systems (Kotolin + Dropwizard), Worker system (Ruby), ,Workflow Engine (Java8), and so on.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">February 2020 - Present</span>
@@ -511,7 +663,7 @@
           <div class="resume-content mr-auto">
             <h3 class="mb-0">Software Engineer (Intern)</h3>
             <div class="subheading mb-3">Treasure Data, Inc. (トレジャーデータ株式会社)</div>
-            <p>Development new functions for OSS workflowengine Digdag</p>
+            <p>Development of new functions for OSS workflowengine Digdag</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">August 2018 - September 2018</span>
@@ -522,7 +674,7 @@
           <div class="resume-content mr-auto">
             <h3 class="mb-0">Software Engineer</h3>
             <div class="subheading mb-3">Toreta, Inc. (株式会社トレタ)</div>
-            <p>Design, implementation, and operation of RESTful Web API for the company&rsquo;s restaurant reservation service (Ruby on Rails 4.x) and internal ETL system</p>
+            <p>Design, implementation, and operation of RESTful Web APIs for the company&rsquo;s restaurant reservation service (Ruby on Rails 4.x) and internal ETL system</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">January 2016 - March 2018</span>
@@ -533,7 +685,7 @@
           <div class="resume-content mr-auto">
             <h3 class="mb-0">Software Engineer</h3>
             <div class="subheading mb-3">HeartRails, Inc. (株式会社ハートレイルズ)</div>
-            <p>Design, implementation, and operation of Web Application and RESTFull API for the customer&rsquo;s web services with Ruby on Rails (4.x)</p>
+            <p>Design, implementation, and operation of Web Applications and RESTFull APIs for the customer&rsquo;s web services with Ruby on Rails (4.x)</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">July 2014 - December 2015</span>
@@ -544,7 +696,7 @@
           <div class="resume-content mr-auto">
             <h3 class="mb-0">Software Engineer</h3>
             <div class="subheading mb-3">BizReach, Inc. (株式会社ビズリーチ)</div>
-            <p>Design, implementation, and operation of Web Application for the company&rsquo;s job hunting service (Java 1.6)</p>
+            <p>Design, implementation, and operation of Web Applications for the company&rsquo;s job hunting service (Java 1.6)</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">December 2012 - June 2014</span>
@@ -555,7 +707,7 @@
           <div class="resume-content mr-auto">
             <h3 class="mb-0">Software Engineer</h3>
             <div class="subheading mb-3">Public Identity Co.,Ltd. (株式会社パブリックアイデンティティ)</div>
-            <p>Design, implementation, and operation of Web Application for the cocustomer&rsquo;s web services (PHP 5.1)</p>
+            <p>Design, implementation, and operation of Web Applications for the cocustomer&rsquo;s web services (PHP 5.1)</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">November 2011 - December 2012</span>

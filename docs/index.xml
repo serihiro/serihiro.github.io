@@ -17,5 +17,25 @@
 The training dataset used in deep neural networks (DNNs) keeps on increasing. When a training dataset grows larger, the reading performance of such a large training dataset becomes a problem. A high-performance computing (HPC) cluster has high performance I/O storage devices, for example, NVMe SSD, as local storage on each compute node. This high-performance I/O storage can mitigate the I/O bottleneck. However, such storage devices provide only temporary storage, therefore the users have to copy the training dataset from shared storage (such as Lustre) into local storage.</description>
     </item>
     
+    <item>
+      <title>大規模機械学習訓練におけるI/O性能の高速化</title>
+      <link>https://serihiro.github.io/publications/hpc170/</link>
+      <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://serihiro.github.io/publications/hpc170/</guid>
+      <description>The slide of this talk
+@techreport{weko_198146_1, author	= &amp;#34;芹沢,和洋 and 建部,修見&amp;#34;, title	= &amp;#34;大規模機械学習訓練におけるI/O性能の高速化&amp;#34;, year = &amp;#34;2019&amp;#34;, institution	= &amp;#34;筑波大学大学院システム情報工学研究科コンピュータサイエンス専攻, 筑波大学計算科学研究センター&amp;#34;, number	= &amp;#34;9&amp;#34;, month	= &amp;#34;jul&amp;#34; } </description>
+    </item>
+    
+    <item>
+      <title>深層ニューラルネットワークにおける訓練高速化のための自動最適化</title>
+      <link>https://serihiro.github.io/publications/hpc168/</link>
+      <pubDate>Thu, 07 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://serihiro.github.io/publications/hpc168/</guid>
+      <description>The slide of this talk
+@techreport{weko_194796_1, author	= &amp;#34;芹沢,和洋 and 建部,修見&amp;#34;, title	= &amp;#34;深層ニューラルネットワークにおける訓練高速化のための自動最適化&amp;#34;, year = &amp;#34;2019&amp;#34;, institution	= &amp;#34;筑波大学大学院システム情報工学研究科コンピュータサイエンス専攻, 筑波大学計算科学研究センター&amp;#34;, number	= &amp;#34;25&amp;#34;, month	= &amp;#34;feb&amp;#34; } </description>
+    </item>
+    
   </channel>
 </rss>
