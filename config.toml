@@ -33,12 +33,20 @@ link = "https://github.com/serihiro/"
 name = "GitHub"
 
 [[params.handles]]
-link = "https://twitter.com/seri_k"
-name = "Twitter"
+link = "https://atcoder.jp/users/seri_k"
+name = "AtCoder"
+
+[[params.handles]]
+link = "https://signate.jp/users/42580"
+name = "SIGNATE"
 
 [[params.handles]]
 link = "https://speakerdeck.com/serihiro"
 name = "SpeakerDeck"
+
+[[params.handles]]
+link = "https://twitter.com/seri_k"
+name = "Twitter"
 
 [[params.handles]]
 link = "https://serihiro.hatenablog.com/"
