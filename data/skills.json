@@ -9,7 +9,7 @@
   },
   {
     "grouping":"Machine Learning",
-    "skills":["Scikit-learn", "Chainer", "Pytorch", "Jupyter notebook", "Statistics (basis)", "Renear regression", "Logistic regression", "K-Means", "CNN"]
+    "skills":["Scikit-learn", "Chainer", "Pytorch", "Jupyter notebook", "Computer Vision"]
   },
   {
       "grouping":"Platform Development & Administration",
