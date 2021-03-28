@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Serizawa&#39;s profile page</title>
+    <link>https://serihiro.github.io/tags/</link>
+    <description>Recent content in Tags on Serizawa&#39;s profile page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://serihiro.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>proceedings</title>
+      <link>https://serihiro.github.io/tags/proceedings/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://serihiro.github.io/tags/proceedings/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
