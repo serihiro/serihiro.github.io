@@ -122,22 +122,22 @@
     
     <p><a href="https://speakerdeck.com/serihiro/o-by-overlapping-data-staging-and-mini-batch-generations">The slide of this talk</a></p>
 <p>The training dataset used in deep neural networks (DNNs) keeps on increasing. When a training dataset grows larger, the reading performance of such a large training dataset becomes a problem. A high-performance computing (HPC) cluster has high performance I/O storage devices, for example, NVMe SSD, as local storage on each compute node. This high-performance I/O storage can mitigate the I/O bottleneck. However, such storage devices provide only temporary storage, therefore the users have to copy the training dataset from shared storage (such as Lustre) into local storage. Large datasets (over a few hundred GiB) takes a long time to copy the datasets between local storage and shared storage. To solve this problem, we propose a method to conceal the time spent on copying dataset to local storage by overlapping the copying and reading of training data. We implemented the proposed method at the machine learning framework Chainer. The results of our experiments showed that the read I/O bandwidth of our method improved from 1.38 times to 6.19 times compared with reading the dataset from Lustre directly using Chainer standard class. Moreover, evaluation of data parallel training showed that our method improved the performance from 1.26 times to 1.74 times for the same comparison.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">@inproceedings{10.1145/3365109.3368768,
-  author = {Serizawa, Kazuhiro and Tatebe, Osamu},
-  title = {Accelerating Machine Learning I/O by Overlapping Data Staging and Mini-Batch Generations},
-  year = {2019},
-  isbn = {9781450370165},
-  publisher = {Association for Computing Machinery},
-  address = {New York, NY, USA},
-  url = {https://doi.org/10.1145/3365109.3368768},
-  doi = {10.1145/3365109.3368768},
-  abstract = {The training dataset used in deep neural networks (DNNs) keeps on increasing. When a training dataset grows larger, the reading performance of such a large training dataset becomes a problem. A high-performance computing (HPC) cluster has high performance I/O storage devices, for example, NVMe SSD, as local storage on each compute node. This high-performance I/O storage can mitigate the I/O bottleneck. However, such storage devices provide only temporary storage, therefore the users have to copy the training dataset from shared storage (such as Lustre) into local storage. Large datasets (over a few hundred GiB) takes a long time to copy the datasets between local storage and shared storage. To solve this problem, we propose a method to conceal the time spent on copying dataset to local storage by overlapping the copying and reading of training data. We implemented the proposed method at the machine learning framework Chainer. The results of our experiments showed that the read I/O bandwidth of our method improved from 1.38 times to 6.19 times compared with reading the dataset from Lustre directly using Chainer standard class. Moreover, evaluation of data parallel training showed that our method improved the performance from 1.26 times to 1.74 times for the same comparison.},
-  booktitle = {Proceedings of the 6th IEEE/ACM International Conference on Big Data Computing, Applications and Technologies},
-  pages = {31–34},
-  numpages = {4},
-  keywords = {data staging, hpc, deep learning},
-  location = {Auckland, New Zealand},
-  series = {BDCAT &#39;19}
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bibtex" data-lang="bibtex"><span style="color:#a6e22e">@inproceedings</span>{10.1145/3365109.3368768,
+  <span style="color:#a6e22e">author</span> = <span style="color:#e6db74">{Serizawa, Kazuhiro and Tatebe, Osamu}</span>,
+  <span style="color:#a6e22e">title</span> = <span style="color:#e6db74">{Accelerating Machine Learning I/O by Overlapping Data Staging and Mini-Batch Generations}</span>,
+  <span style="color:#a6e22e">year</span> = <span style="color:#e6db74">{2019}</span>,
+  <span style="color:#a6e22e">isbn</span> = <span style="color:#e6db74">{9781450370165}</span>,
+  <span style="color:#a6e22e">publisher</span> = <span style="color:#e6db74">{Association for Computing Machinery}</span>,
+  <span style="color:#a6e22e">address</span> = <span style="color:#e6db74">{New York, NY, USA}</span>,
+  <span style="color:#a6e22e">url</span> = <span style="color:#e6db74">{https://doi.org/10.1145/3365109.3368768}</span>,
+  <span style="color:#a6e22e">doi</span> = <span style="color:#e6db74">{10.1145/3365109.3368768}</span>,
+  <span style="color:#a6e22e">abstract</span> = <span style="color:#e6db74">{The training dataset used in deep neural networks (DNNs) keeps on increasing. When a training dataset grows larger, the reading performance of such a large training dataset becomes a problem. A high-performance computing (HPC) cluster has high performance I/O storage devices, for example, NVMe SSD, as local storage on each compute node. This high-performance I/O storage can mitigate the I/O bottleneck. However, such storage devices provide only temporary storage, therefore the users have to copy the training dataset from shared storage (such as Lustre) into local storage. Large datasets (over a few hundred GiB) takes a long time to copy the datasets between local storage and shared storage. To solve this problem, we propose a method to conceal the time spent on copying dataset to local storage by overlapping the copying and reading of training data. We implemented the proposed method at the machine learning framework Chainer. The results of our experiments showed that the read I/O bandwidth of our method improved from 1.38 times to 6.19 times compared with reading the dataset from Lustre directly using Chainer standard class. Moreover, evaluation of data parallel training showed that our method improved the performance from 1.26 times to 1.74 times for the same comparison.}</span>,
+  <span style="color:#a6e22e">booktitle</span> = <span style="color:#e6db74">{Proceedings of the 6th IEEE/ACM International Conference on Big Data Computing, Applications and Technologies}</span>,
+  <span style="color:#a6e22e">pages</span> = <span style="color:#e6db74">{31–34}</span>,
+  <span style="color:#a6e22e">numpages</span> = <span style="color:#e6db74">{4}</span>,
+  <span style="color:#a6e22e">keywords</span> = <span style="color:#e6db74">{data staging, hpc, deep learning}</span>,
+  <span style="color:#a6e22e">location</span> = <span style="color:#e6db74">{Auckland, New Zealand}</span>,
+  <span style="color:#a6e22e">series</span> = <span style="color:#e6db74">{BDCAT &#39;19}</span>
 }
 </code></pre></div>
     <p class="mt-3">

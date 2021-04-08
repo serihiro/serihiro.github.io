@@ -25,7 +25,7 @@ The training dataset used in deep neural networks (DNNs) keeps on increasing. Wh
       <guid>https://serihiro.github.io/publications/hpc170/</guid>
       <description>The slide of this talk
 深層ニューラルネットワークに使用される訓練データの規模は年々増加しており，深層ニューラルネットワークの訓練処理において訓練データの read I/O は無視できないボトルネックになりつつある．ノードローカルストレージとして搭載された SSD などの I/O が高速なストレージデバイスを使用することで read I/O の高速化は可能であるが，HPC クラスタにおいては毎回訓練データセットのファイルコピーが毎回必要であるという課題がある．また，HPC クラスタの計算ノードからネットワークを経由してアクセス可能な外部ストレージは訓練データセットをファイルコピーせずに訓練処理を開始できるが，SSD ほどのバンド幅は見込めない．本研究では，ノードローカルストレージと外部ストレージを組み合わせて使用することで事前に訓練データセットのコピーをせずに read I/O を高速化する手法を提案する．提案手法を機械学習フレームワークである Chainer に実装し，Chainer が提供する並列に訓練データを read する機能をベースラインとして，read I/O 性能を自作したベンチマークによって比較したところ，Lustre に訓練データを配置した場合のベースラインよりも，より少ないプロセス数を使用して最大で約 20% 高い read I/O 性能を達成できることを示した．データ並列訓練における 10 epoch の訓練時間の比較では，訓練データセットのファイルコピーに要する時間を考慮するとベースラインと SSD の組み合わせよりも訓練処理時間を短縮できることを示した．一方で，データ並列訓練においては read I/O ではなく AllReduce による処理時間が律速するため，ストレージ間の I/O 性能が処理時間に反映されにくいという，データ並列訓練の所要時間における特性を明らかにした．
-@techreport{weko_198146_1, author	= &amp;#34;芹沢,和洋 and 建部,修見&amp;#34;, title	= &amp;#34;大規模機械学習訓練におけるI/O性能の高速化&amp;#34;, year = &amp;#34;2019&amp;#34;, institution	= &amp;#34;筑波大学大学院システム情報工学研究科コンピュータサイエンス専攻, 筑波大学計算科学研究センター&amp;#34;, number	= &amp;#34;9&amp;#34;, month	= &amp;#34;jul&amp;#34; } </description>
+@techreport{weko_198146_1, author = &amp;#34;芹沢,和洋 and 建部,修見&amp;#34;, title = &amp;#34;大規模機械学習訓練におけるI/O性能の高速化&amp;#34;, year = &amp;#34;2019&amp;#34;, institution = &amp;#34;筑波大学大学院システム情報工学研究科コンピュータサイエンス専攻, 筑波大学計算科学研究センター&amp;#34;, number = &amp;#34;9&amp;#34;, month = &amp;#34;jul&amp;#34; } </description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@ The training dataset used in deep neural networks (DNNs) keeps on increasing. Wh
       <guid>https://serihiro.github.io/publications/hpc168/</guid>
       <description>The slide of this talk
 深層ニューラルネットワークの訓練には大量のデータが必要となり，訓練処理時間の長期化が問題となっている．訓練時間の短縮方法として，複数の訓練データを用いて訓練処理を行うミニバッチ訓練という手法が知られている．本研究では，訓練処理時間と関連性が考えられる，訓練処理中の GPU 利用率を最大化するという最適化手法を用いて．訓練処理時間を可能な限り最短にすることができるミニバッチサイズを決定する方法を提案した．提案手法を深層学習フレームワークである Chainer を用いて実装した．Cifar 100 と ImageNet の 2 種類の画像データセットおよび VGG 16 と ResNet 50 の 2 種類の畳み込みニューラルネットワークを用いて提案手法の評価を行った結果，GPU 利用率のみを最大化するアプローチでは訓練処理速度を最短とするミニバッチサイズを決定することは困難であるという結論となった．一方で，データセットごとに訓練処理中の GPU 利用率とミニバッチサイズとの間の相関性に異なる傾向が観察され，データサイズに起因するボトルネックが GPU 利用を阻害している可能性が発見された．
-@techreport{weko_194796_1, author	= &amp;#34;芹沢,和洋 and 建部,修見&amp;#34;, title	= &amp;#34;深層ニューラルネットワークにおける訓練高速化のための自動最適化&amp;#34;, year = &amp;#34;2019&amp;#34;, institution	= &amp;#34;筑波大学大学院システム情報工学研究科コンピュータサイエンス専攻, 筑波大学計算科学研究センター&amp;#34;, number	= &amp;#34;25&amp;#34;, month	= &amp;#34;feb&amp;#34; } </description>
+@techreport{weko_194796_1, author = &amp;#34;芹沢,和洋 and 建部,修見&amp;#34;, title = &amp;#34;深層ニューラルネットワークにおける訓練高速化のための自動最適化&amp;#34;, year = &amp;#34;2019&amp;#34;, institution	= &amp;#34;筑波大学大学院システム情報工学研究科コンピュータサイエンス専攻, 筑波大学計算科学研究センター&amp;#34;, number = &amp;#34;25&amp;#34;, month = &amp;#34;feb&amp;#34; } </description>
     </item>
     
   </channel>
