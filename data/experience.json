@@ -1,9 +1,15 @@
 [
     {
+        "role": "Software Engineer",
+        "company": "CADDi Inc. (トレジャーデータ株式会社)",
+        "summary": "Developing GraphQL server by Kotlin",
+        "range": "June 2021 - Present"
+    },
+    {
         "role": "Senior Software Engineer",
         "company": "Treasure Data, Inc. (トレジャーデータ株式会社)",
         "summary": "Developing of internal RESTful Web API systems (Kotolin + Dropwizard), Worker system (Ruby), ,Workflow Engine (Java8), and so on.",
-        "range": "February 2020 - Present"
+        "range": "February 2020 - May 2021"
     },
     {
         "role": "Software Engineer (Intern)",
