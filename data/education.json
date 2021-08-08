@@ -2,13 +2,13 @@
     {
         "school": "University of Tsukuba, Depeartment of Computer Science, Graduate School of Systems and Information engineering (筑波大学大学院システム情報工学研究科コンピュータサイエンス専攻博士前期課程)",
         "degree": "Master of Engineering",
-        "major": "Computer Sciense",
+        "major": "I have researched about methods to accelerate the read I/O part at Deep Learning training on HPC Clusters. My master's thesis title is \"Research for Acceleating Large Sclae Machine Learning\" (大規模機械学習の高速化に関する研究).",
         "range": "April 2018 - March 2020"
     },
     {
         "school": "University of Iwate, Faculty of Agriculture (岩手大学農学部農林環境科学科)",
         "degree": "B.S. in Agriculture",
-        "major": "Environmental control engineering",
+        "major": "My major was Environmental control engineering. My bachelor's thesis title is \"Development of a Classification Model using Image Information for Determining the Maturity Level of Gentian Flowers\" (切り花リンドウの成熟度判別における画像情報を⽤いた分類モデルの構築).",
         "range": "April 2006 - March 2009"
     }
 ]
