@@ -2,8 +2,10 @@
   {
     "grouping": "Architecture",
     "skills": [
-      "RESTful APIs",
-      "Microservices"
+      "Microservices",
+      "Clean Architecture",
+      "GraphQL",
+      "RESTful API"
     ]
   },
   {
@@ -11,6 +13,7 @@
     "skills": [
       "Ruby",
       "Java",
+      "Kotlin",
       "Python",
       "JavaScript",
       "C++",
@@ -71,7 +74,13 @@
         "name": "Docker"
       },
       {
+        "name": "Kubernetes"
+      },
+      {
         "name": "AWS"
+      },
+      {
+        "name": "GCP"
       }
     ]
   }
