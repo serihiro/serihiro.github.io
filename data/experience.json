@@ -2,13 +2,13 @@
     {
         "role": "Software Engineer",
         "company": "CADDi, Inc. (キャディ株式会社)",
-        "summary": "Developing GraphQL server by Kotlin",
+        "summary": "Developing GraphQL server by Kotlin, gRPC server by Rust, web UI by Next.js + TypeScript, and so on.",
         "range": "June 2021 - April 2022"
     },
     {
         "role": "Senior Software Engineer",
         "company": "Treasure Data, Inc. (トレジャーデータ株式会社)",
-        "summary": "Developing of internal RESTful Web API systems (Kotolin + Dropwizard), Worker system (Ruby), ,Workflow Engine (Java8), and so on.",
+        "summary": "Developing of internal RESTful Web API systems (Kotolin + Dropwizard), Worker system (Ruby), Workflow Engine (Java8), and so on.",
         "range": "February 2020 - May 2021"
     },
     {
