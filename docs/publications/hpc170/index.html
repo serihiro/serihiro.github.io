@@ -29,7 +29,7 @@
     <noscript><link rel="stylesheet" href="https://serihiro.github.io/css/tweaks.css"></noscript>
   <link rel="preload" href="https://serihiro.github.io/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://serihiro.github.io/css/resume-override.css"></noscript>
-  <meta name="generator" content="Hugo 0.83.1" />
+  <meta name="generator" content="Hugo 0.97.3" />
   
    
   
@@ -122,19 +122,19 @@
     
     <p><a href="https://speakerdeck.com/serihiro/hpc170-slide">The slide of this talk</a></p>
 <p>深層ニューラルネットワークに使用される訓練データの規模は年々増加しており，深層ニューラルネットワークの訓練処理において訓練データの read I/O は無視できないボトルネックになりつつある．ノードローカルストレージとして搭載された SSD などの I/O が高速なストレージデバイスを使用することで read I/O の高速化は可能であるが，HPC クラスタにおいては毎回訓練データセットのファイルコピーが毎回必要であるという課題がある．また，HPC クラスタの計算ノードからネットワークを経由してアクセス可能な外部ストレージは訓練データセットをファイルコピーせずに訓練処理を開始できるが，SSD ほどのバンド幅は見込めない．本研究では，ノードローカルストレージと外部ストレージを組み合わせて使用することで事前に訓練データセットのコピーをせずに read I/O を高速化する手法を提案する．提案手法を機械学習フレームワークである Chainer に実装し，Chainer が提供する並列に訓練データを read する機能をベースラインとして，read I/O 性能を自作したベンチマークによって比較したところ，Lustre に訓練データを配置した場合のベースラインよりも，より少ないプロセス数を使用して最大で約 20% 高い read I/O 性能を達成できることを示した．データ並列訓練における 10 epoch の訓練時間の比較では，訓練データセットのファイルコピーに要する時間を考慮するとベースラインと SSD の組み合わせよりも訓練処理時間を短縮できることを示した．一方で，データ並列訓練においては read I/O ではなく AllReduce による処理時間が律速するため，ストレージ間の I/O 性能が処理時間に反映されにくいという，データ並列訓練の所要時間における特性を明らかにした．</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bibtex" data-lang="bibtex"><span style="color:#a6e22e">@inproceedings</span> { IPSJ-HPC170:serizawa,
-  <span style="color:#a6e22e">author</span> = <span style="color:#e6db74">&#34;{芹沢 和洋} and {建部 修見}&#34;</span>,
-  <span style="color:#a6e22e">institution</span> = <span style="color:#e6db74">&#34;{筑波大学大学院システム情報工学研究科コンピュータサイエンス専攻}, {筑波大学計算科学研究センター}&#34;</span>,
-  <span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;{深層ニューラルネットワークにおける訓練高速化のための自動最適化}&#34;</span>,
-  <span style="color:#a6e22e">year</span> = <span style="color:#e6db74">&#34;{2019}&#34;</span>,
-  <span style="color:#a6e22e">volume</span> = <span style="color:#e6db74">&#34;{2019-HPC-170}&#34;</span>,
-  <span style="color:#a6e22e">number</span> = <span style="color:#e6db74">&#34;{9}&#34;</span>,
-  <span style="color:#a6e22e">pages</span> = <span style="color:#e6db74">{1--12}</span>,
-  <span style="color:#a6e22e">booktitle</span> = <span style="color:#e6db74">&#34;{IPSJ SIG Technical Report}&#34;</span>,
-  <span style="color:#a6e22e">url</span>= <span style="color:#e6db74">{http://id.nii.ac.jp/1001/00198056/}</span>,
-  <span style="color:#a6e22e">note</span> = <span style="color:#e6db74">{(In Japanese)}</span>
-}
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bibtex" data-lang="bibtex"><span style="display:flex;"><span><span style="color:#a6e22e">@inproceedings</span> { IPSJ-HPC170:serizawa,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">author</span> = <span style="color:#e6db74">&#34;{芹沢 和洋} and {建部 修見}&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">institution</span> = <span style="color:#e6db74">&#34;{筑波大学大学院システム情報工学研究科コンピュータサイエンス専攻}, {筑波大学計算科学研究センター}&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;{深層ニューラルネットワークにおける訓練高速化のための自動最適化}&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">year</span> = <span style="color:#e6db74">&#34;{2019}&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">volume</span> = <span style="color:#e6db74">&#34;{2019-HPC-170}&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">number</span> = <span style="color:#e6db74">&#34;{9}&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">pages</span> = <span style="color:#e6db74">{1--12}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">booktitle</span> = <span style="color:#e6db74">&#34;{IPSJ SIG Technical Report}&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">url</span>= <span style="color:#e6db74">{http://id.nii.ac.jp/1001/00198056/}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">note</span> = <span style="color:#e6db74">{(In Japanese)}</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
     <p class="mt-3">
     <ul class="tags">
     
