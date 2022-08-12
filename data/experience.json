@@ -1,5 +1,11 @@
 [
     {
+        "role": "Software Engineer, Souzoh",
+        "company": "Souzoh, Inc. (株式会社ソウゾウ)",
+        "summary": "Developing gRPC sever for Mercari shops (EC site)",
+        "range": "August 2022 - Present"
+    },
+    {
         "role": "Software Engineer",
         "company": "CADDi, Inc. (キャディ株式会社)",
         "summary": "Developing GraphQL server by Kotlin, gRPC server by Rust, web UI by Next.js + TypeScript, and so on.",
