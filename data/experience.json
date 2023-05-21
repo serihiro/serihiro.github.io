@@ -1,14 +1,20 @@
 [
     {
+        "role": "Software Engineer, Search",
+        "company": "Mercari, Inc. (株式会社メルカリ)",
+        "summary": "Developing gRPC severs for serach system",
+        "range": "March 2023 - Present"
+    },
+    {
         "role": "Software Engineer, Souzoh",
         "company": "Souzoh, Inc. (株式会社ソウゾウ)",
-        "summary": "Developing gRPC sever for Mercari shops (EC site)",
-        "range": "August 2022 - Present"
+        "summary": "Developing gRPC severs for Mercari shops (EC site)",
+        "range": "August 2022 - March 2023"
     },
     {
         "role": "Software Engineer",
         "company": "CADDi, Inc. (キャディ株式会社)",
-        "summary": "Developing GraphQL server by Kotlin, gRPC server by Rust, web UI by Next.js + TypeScript, and so on.",
+        "summary": "Developing GraphQL servers by Kotlin, gRPC servers by Rust, web UI by Next.js + TypeScript, and so on.",
         "range": "June 2021 - April 2022"
     },
     {
