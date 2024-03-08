@@ -6,16 +6,14 @@
     <description>Recent content in International Conference on Kazuhiro Serizawa&#39;s profile page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://serihiro.github.io/tags/international-conference/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://serihiro.github.io/tags/international-conference/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Accelerating Machine Learning I/O by Overlapping Data Staging and Mini-batch Generations</title>
       <link>https://serihiro.github.io/publications/bdcat/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://serihiro.github.io/publications/bdcat/</guid>
-      <description>The slide of this talk
-The training dataset used in deep neural networks (DNNs) keeps on increasing. When a training dataset grows larger, the reading performance of such a large training dataset becomes a problem. A high-performance computing (HPC) cluster has high performance I/O storage devices, for example, NVMe SSD, as local storage on each compute node. This high-performance I/O storage can mitigate the I/O bottleneck. However, such storage devices provide only temporary storage, therefore the users have to copy the training dataset from shared storage (such as Lustre) into local storage.</description>
+      <description>The slide of this talk&#xA;The training dataset used in deep neural networks (DNNs) keeps on increasing. When a training dataset grows larger, the reading performance of such a large training dataset becomes a problem. A high-performance computing (HPC) cluster has high performance I/O storage devices, for example, NVMe SSD, as local storage on each compute node. This high-performance I/O storage can mitigate the I/O bottleneck. However, such storage devices provide only temporary storage, therefore the users have to copy the training dataset from shared storage (such as Lustre) into local storage.</description>
     </item>
-    
   </channel>
 </rss>
