@@ -1,9 +1,15 @@
 [
     {
+        "role": "Software Engineer, ML",
+        "company": "ELYZA, Inc. (株式会社ELYZA)",
+        "summary": "Developing LLM inference platform",
+        "range": "October 2024 - Present"
+    },
+    {
         "role": "Software Engineer, Mercari Hallo",
         "company": "Mercari, Inc. (株式会社メルカリ)",
         "summary": "Developing the GraphQL Server and gRPC server for the Mercari Hallo service",
-        "range": "October 2023 - Present"
+        "range": "October 2023 - September 2024"
     },
     {
         "role": "Software Engineer, Search team",
